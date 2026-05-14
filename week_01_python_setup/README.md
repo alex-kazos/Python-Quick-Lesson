@@ -15,15 +15,6 @@ Make Python feel runnable, editable, and not scary.
 - **Integers**: An integer is a whole number, such as `5`, `18`, or `2026`. Use integers when the program needs to do math with whole numbers.
 - **f-strings**: An f-string lets you place variables inside text. For example, `f"Hello {name}"` builds a message using the value stored in `name`.
 
-## During the Session
-
-1. Install or verify Python and VS Code.
-2. Run `profile_app.py`.
-3. Change one prompt and run again.
-4. Add one new field together.
-5. Explain what `int(age)` does.
-6. Make the first Git commit.
-
 ## Build
 
 Run:
