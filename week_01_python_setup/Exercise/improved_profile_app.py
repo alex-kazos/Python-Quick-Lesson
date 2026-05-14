@@ -6,8 +6,6 @@ favorite_car = input("Favorite car: ")
 favorite_food = input("Favorite food: ")
 fun_fact = input("Random fun fact about you: ")
 
-age_in_five_years = int(age) + 5
-
 print()
 print("===== Mini Profile =====")
 print(f"Name: {name}")
@@ -16,6 +14,12 @@ print(f"Favorite movie: {favorite_movie}")
 print(f"Favorite car: {favorite_car}")
 print(f"Favorite food: {favorite_food}")
 print(f"Fun fact: {fun_fact}")
-print(f"In 5 years, you will be {age_in_five_years}.")
+
+if age_text.isdigit():
+    age = int(age_text)
+    print(f"In 5 years, you will be {age + 5}.")
+else:
+    print("Age was not a valid whole number, so I skipped the age math.")
+
 print("========================")
 
